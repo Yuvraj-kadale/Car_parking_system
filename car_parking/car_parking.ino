@@ -4,18 +4,6 @@
 LiquidCrystal_I2C lcd(0x27, 16,2);
 
 Servo myservo;
-/*  
-firebase creds
-host https://carparking-5adf3-default-rtdb.firebaseio.com/
-  id : carparking-5adf3
-key: jDYHp8fdWFQh9HnyblDNLrWBlEOMF5h67d320UYL
-
-
-#define FIREBASE_HOST "carparking-5adf3-default-rtdb.firebaseio.com" 
-#define FIREBASE_AUTH "jDYHp8fdWFQh9HnyblDNLrWBlEOMF5h67d320UYL" 
-#define WIFI_SSID "Uv"
-#define WIFI_PASSWORD "nopassword" 
-*/
  
 #define ir_enter 2
 #define ir_back  4
